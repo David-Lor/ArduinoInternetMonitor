@@ -12,7 +12,7 @@ typedef struct PingServer {
   byte ip2;
   byte ip3;
   byte ip4;
-  char serverName[15+1];
+  char serverName[SERVERNAME_NCHARS];
 };
 
 const PROGMEM PingServer servers[NSERVERS] = {
